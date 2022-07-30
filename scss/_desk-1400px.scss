@@ -1,0 +1,120 @@
+@import "./component/_text.scss";
+@import "./component/_ui.scss";
+
+
+.header{
+    padding: 0 calc(50% - 670px);
+    margin-left: 20px;
+    margin-right: 20px;
+    min-height: 134px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-list{
+    flex-basis: 426px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav__item-active{
+    position: relative;
+    h3{
+        &::after{
+            content: '';
+            width: 80%;
+            height: 3px;
+            background: #FD749B;
+            border-radius: 5px;
+            position: absolute;
+            bottom: -5px;
+            left: 10%;
+        }
+    }
+}
+
+.header-action-list{
+    flex-basis: 355px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+.action-selector{
+    img{
+        margin-left: 4px;
+        margin-top: 10px;
+    }
+}
+
+.section{
+    padding: 0 calc(50% - 580px);
+}
+
+.get-started{
+    display: flex;
+    justify-content: space-between;
+    gap: 73px;
+    min-height: 816px;
+    background: url(../img/get-started-section-bg.svg),
+                // linear-gradient(174.48deg, #FD749B -12.41%, #281AC8 88.56%)
+                ;
+    background-repeat:no-repeat ;
+    background-position-x: center;
+    background-position-y: top ;
+    // background-size: cover;
+    color: #fff;
+    text-align: left;
+    h1{
+        margin-top: 142px;
+        margin-bottom: 21px;
+        text-align: left;
+
+    }
+    p{
+        margin-bottom: 30px;
+        text-align: left;
+    }
+    .get-started__img,.get-started__text{
+
+        flex-basis: 50%;
+    }
+    .get-started__img{
+        margin-top: 60px;
+        margin-right: -173px;
+    }
+}
+.wellcome,.experience{
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    button {
+        margin-top: 35px;
+    }
+}
+.welcome{
+    margin-bottom: -50px;
+}
+.experience{
+    margin-top: -50px;
+    margin-bottom: 116px;
+    h2{
+        max-width: 350px;
+    }
+}
+.tablo{
+    background-image: url(../img/tablo-BG.svg);
+    background-repeat: no-repeat;
+    background-position: 50% 80%;
+    padding-top: 250px;
+    padding-bottom: 250px; 
+}
+.tablo-content{
+    width: 1158px;
+    height: 367px;
+    background: #FFFFFF;
+    box-shadow: 0px 50px 100px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;  
+
+}
