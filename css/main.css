@@ -271,6 +271,7 @@ p {
   width: 465px;
   height: 358px;
   padding: 44px 59px 40px;
+  margin-left: 0;
   margin: 0 auto;
   box-shadow: 0px 50px 100px rgba(0, 0, 0, 0.1);
   display: flex;
@@ -281,7 +282,6 @@ p {
   font-weight: 700;
   font-size: 24px;
   line-height: 39px;
-  margin: 0;
 }
 .post p {
   font-weight: 400;
@@ -538,6 +538,115 @@ p {
   margin-right: 0;
 }
 
+body {
+  font-family: "Poppins";
+  font-style: normal;
+  color: #333333;
+}
+body a:link {
+  color: #333333;
+}
+body a:visited {
+  color: #333333;
+}
+
+h1 {
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 60px;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 65px;
+}
+
+h3 {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 40px;
+  text-align: center;
+}
+
+.button {
+  width: 157px;
+  height: 54px;
+  color: #FFF;
+  background: linear-gradient(178.18deg, #FD749B -13.56%, #281AC8 158.3%);
+  border-radius: 100px;
+  padding: 17px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.button-white {
+  background: #FFFFFF;
+  color: #000;
+  mix-blend-mode: screen;
+}
+
+.text-ribon h2 {
+  position: relative;
+}
+.text-ribon h2::after {
+  position: absolute;
+  content: "";
+  width: 50px;
+  height: 3px;
+  border-radius: 5px;
+  background-color: #FD749B;
+  bottom: 0;
+  left: 4px;
+}
+
+.text-ribon-center h2::after {
+  left: calc(50% - 25px);
+}
+
+.type1-txt {
+  margin-left: 44px;
+  text-align: left;
+}
+.type1-txt h2 {
+  background: linear-gradient(178.18deg, #FD749B -13.56%, #281AC8 158.3%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin-bottom: 74px;
+}
+.type1-txt p {
+  text-align: left;
+}
+
+.type1-txt-center {
+  margin-left: 0;
+  text-align: center;
+}
+.type1-txt-center p {
+  text-align: center;
+}
+
+.border {
+  background: linear-gradient(#FFFFFF, #FFFFFF) padding-box, linear-gradient(#FD749B, #281AC8) border-box;
+  border-radius: 15px;
+  border: 1px solid transparent;
+}
+
+@media (min-width: 1200px) {
+  .header {
+    padding: 0 calc(50% - 580px);
+  }
+}
 body {
   min-height: 100vh;
   display: flex;

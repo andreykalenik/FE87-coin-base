@@ -173,6 +173,7 @@
     width: 465px;
     height: 358px;
     padding: 44px 59px 40px;
+    margin-left: 0;
     margin: 0 auto;
     box-shadow: 0px 50px 100px rgba(0, 0, 0, 0.1);
     display: flex;
@@ -182,7 +183,6 @@
         font-weight: 700;
         font-size: 24px;
         line-height: 39px;
-        margin: 0;
     }
     p{
         font-weight: 400;
@@ -206,6 +206,7 @@
         }
     }
 }
+
 .post-prev, .post-next{
     width: 370px;
     height: 286px;
