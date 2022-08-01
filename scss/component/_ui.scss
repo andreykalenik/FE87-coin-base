@@ -17,7 +17,7 @@
     color: #000;
     mix-blend-mode: screen;
 }
-.text-left-ribon{
+.text-ribon{
     h2{
         position: relative;
         &::after{
@@ -30,6 +30,13 @@
             bottom: 0;
             left: 4px;
 
+        }
+    }
+}
+.text-ribon-center{
+    h2{
+        &::after{
+            left: calc(50% - 25px);
         }
     }
 }
@@ -50,4 +57,20 @@
     p{
         text-align: left; 
     }
+}
+
+.type1-txt-center{
+    margin-left: 0;
+    text-align: center;
+    p{
+        text-align: center; 
+    }
+}
+
+.border{
+        background: 
+          linear-gradient(#FFFFFF, #FFFFFF) padding-box,
+          linear-gradient(#FD749B, #281AC8) border-box;
+        border-radius:  15px; ;
+        border: 1px solid transparent;
 }
