@@ -103,6 +103,14 @@ p {
   border: 1px solid transparent;
 }
 
+.border-gray {
+  border: 1px solid #888888;
+}
+
+.border-input {
+  border-radius: 100px;
+}
+
 .header {
   padding: 0 calc(50% - 670px);
   margin-left: 20px;
@@ -541,6 +549,28 @@ p {
   margin-right: 0;
 }
 
+.subscribe-content {
+  margin-top: 102px;
+  margin-bottom: 91px;
+}
+.subscribe-content p {
+  width: 50%;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
+.input {
+  height: 54px;
+  width: 388px;
+  padding: 0 16px;
+  margin-right: 9px;
+}
+
+.foter {
+  min-height: 351px;
+  background-color: #151515;
+}
+
 body {
   font-family: "Poppins";
   font-style: normal;
@@ -644,6 +674,14 @@ p {
   background: linear-gradient(#FFFFFF, #FFFFFF) padding-box, linear-gradient(#FD749B, #281AC8) border-box;
   border-radius: 15px;
   border: 1px solid transparent;
+}
+
+.border-gray {
+  border: 1px solid #888888;
+}
+
+.border-input {
+  border-radius: 100px;
 }
 
 @media (min-width: 1200px) {

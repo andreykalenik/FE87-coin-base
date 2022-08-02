@@ -74,6 +74,12 @@
         background: 
           linear-gradient(#FFFFFF, #FFFFFF) padding-box,
           linear-gradient(#FD749B, #281AC8) border-box;
-        border-radius:  15px; ;
+        border-radius:  15px; 
         border: 1px solid transparent;
+}
+.border-gray{
+    border: 1px solid #888888;
+}
+.border-input{
+    border-radius:  100px;
 }
