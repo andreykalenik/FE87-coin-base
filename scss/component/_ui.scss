@@ -1,3 +1,13 @@
+%unicorn-text{
+    h2{
+        background: linear-gradient(178.18deg, #FD749B -13.56%, #281AC8 158.3%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        margin-bottom: 74px;
+        
+    }
+}
 .button {
     width: 157px;
     height: 54px;
@@ -46,14 +56,7 @@
 .type1-txt{
     margin-left: 44px;
     text-align: left;
-    h2{
-        background: linear-gradient(178.18deg, #FD749B -13.56%, #281AC8 158.3%);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        background-clip: text;
-        margin-bottom: 74px;
-        
-    }
+    @extend %unicorn-text;
     p{
         text-align: left; 
     }

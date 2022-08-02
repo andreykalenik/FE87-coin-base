@@ -35,6 +35,14 @@ p {
   text-align: center;
 }
 
+.post h2, .type1-txt h2 {
+  background: linear-gradient(178.18deg, #FD749B -13.56%, #281AC8 158.3%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin-bottom: 74px;
+}
+
 .button {
   width: 157px;
   height: 54px;
@@ -76,13 +84,6 @@ p {
 .type1-txt {
   margin-left: 44px;
   text-align: left;
-}
-.type1-txt h2 {
-  background: linear-gradient(178.18deg, #FD749B -13.56%, #281AC8 158.3%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  margin-bottom: 74px;
 }
 .type1-txt p {
   text-align: left;
@@ -482,6 +483,8 @@ p {
   line-height: 25px;
   color: #333333;
   text-align: right;
+  scrollbar-color: #FD749B #E5E5E5;
+  scrollbar-width: thin;
 }
 .exchanges::-webkit-scrollbar {
   width: 5px;
@@ -575,6 +578,14 @@ p {
   text-align: center;
 }
 
+.type1-txt h2, .post h2 {
+  background: linear-gradient(178.18deg, #FD749B -13.56%, #281AC8 158.3%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin-bottom: 74px;
+}
+
 .button {
   width: 157px;
   height: 54px;
@@ -616,13 +627,6 @@ p {
 .type1-txt {
   margin-left: 44px;
   text-align: left;
-}
-.type1-txt h2 {
-  background: linear-gradient(178.18deg, #FD749B -13.56%, #281AC8 158.3%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  margin-bottom: 74px;
 }
 .type1-txt p {
   text-align: left;

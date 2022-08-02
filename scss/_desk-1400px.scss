@@ -179,6 +179,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    @extend %unicorn-text;
     h2{
         font-weight: 700;
         font-size: 24px;
@@ -412,7 +413,9 @@
     line-height: 25px;
     color: #333333;
     text-align: right;
-
+    // скролл****
+    scrollbar-color: #FD749B #E5E5E5;
+    scrollbar-width: thin;
     &::-webkit-scrollbar {
         width: 5px;              
         margin-top: 20px;
