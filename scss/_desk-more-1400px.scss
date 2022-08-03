@@ -51,19 +51,18 @@
 .section{
     padding: 0 calc(50% - 580px);
 }
-
+    
 .get-started{
     display: flex;
-    justify-content: space-between;
-    gap: 73px;
-    min-height: 816px;
-    background: url(../img/get-started-section-bg.svg),
-                // linear-gradient(174.48deg, #FD749B -12.41%, #281AC8 88.56%)
-                ;
-    background-repeat:no-repeat ;
-    background-position-x: center;
-    background-position-y: top ;
-    // background-size: cover;
+    justify-content: center;
+    gap: 11vw;
+    min-height: 866px;
+    background: url(../img/wave.svg),
+                linear-gradient(174.48deg, #FD749B -12.41%, #281AC8 88.56%);
+    background-repeat:no-repeat, no-repeat ;
+    background-position: center bottom -3vw, center center;
+
+    background-size: contain, cover;
     color: #fff;
     text-align: left;
     h1{
@@ -76,18 +75,17 @@
         margin-bottom: 30px;
         text-align: left;
     }
-    .get-started__img,.get-started__text{
-
-        flex-basis: 50%;
+    img{
+        margin-top: -70px;
     }
-    .get-started__img{
-        margin-top: 60px;
-        margin-right: -173px;
-    }
+    
+}
+.get-started__item{
+    flex: 0 0 50%;
 }
 .wellcome,.experience{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     gap: 40px;
     button {
@@ -97,6 +95,9 @@
 .welcome{
     margin-bottom: -50px;
 }
+.wellcome__item{
+    flex: 0 0 50%;
+}
 .experience{
     margin-top: -50px;
     margin-bottom: 116px;
@@ -105,11 +106,14 @@
     }
 }
 .tablo{
-    background-image: url(../img/tablo-BG.svg);
+    background-image: url(../img/tablo-top-wave-bg.svg),
+                    url(../img/tablo-bottom-wave-bg.svg),
+                    linear-gradient(174.48deg, #FD749B -12.41%, #281AC8 88.56%);
     background-repeat: no-repeat;
-    background-position: 50% 80%;
-    padding-top: 250px;
-    padding-bottom: 250px; 
+    background-position: center top -150px, center bottom -50px, center center;
+    background-size: contain, contain, contain;
+    padding-top: 23vw;
+    padding-bottom: 20vw; 
 }
 .tablo-content{
     max-width: 1158px;
@@ -123,13 +127,15 @@
     padding-top: 121px;
     background-image: url(../img/trade-BG.svg);
     background-repeat: no-repeat;
-    background-position: 50% 0;
+    background-position: center top;
+    background-size: cover;
+    padding-bottom: 7vw;
 
 }
 .treade-content {
     margin: 0 auto;
     padding-top: 74px;
-    width: 980px;
+    max-width: 980px;
     height: 504px;
     background: #FFFFFF;
     box-shadow: 0px 50px 100px rgba(0, 0, 0, 0.1);
@@ -189,6 +195,7 @@
         font-weight: 400;
         font-size: 12px;
         line-height: 28px;
+        text-align: left;
     }
     span{
         margin: 0 5px;
@@ -490,6 +497,52 @@
     width: 388px;
     padding: 0 16px;
     margin-right: 9px;
+}
+.review{
+    background-image: url(../img/review-top-wave-bg.svg),
+    url(../img/review-bottom-wave-bg.svg),
+    linear-gradient(174.48deg, #FD749B -12.41%, #281AC8 88.56%);
+    background-repeat: no-repeat;
+    background-position: center top -100px, center bottom -100px, center center;
+    background-size: contain, contain, contain;
+    padding-top: 4vw;
+    padding-bottom: 15vw; 
+    img{
+        height: 100%;
+        width: 100%;
+    }
+}
+.download{
+    min-height: 866px;
+    background: url(../img/download-top-wave-bg.svg),
+                linear-gradient(174.48deg, #FD749B -12.41%, #281AC8 88.56%,);
+    background-repeat:no-repeat, no-repeat ;
+    background-position: center top -80px, center center;
+    background-size: contain, cover;
+    margin-bottom: 190px;
+
+}
+.store, .phone-preview {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin: 80px auto;
+}
+
+.phone-preview{
+    margin: 0px auto;
+    margin-top: -190px;
+}
+.phone-preview__item {
+    position: relative;
+    top: 190px;
+    margin: 5px;
+    img{
+        height: 100%;
+        width: 100%;
+    }
+
 }
 .foter{
     min-height: 351px;

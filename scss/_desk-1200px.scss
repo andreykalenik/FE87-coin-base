@@ -10,13 +10,9 @@
 @import "./component/_text.scss";
 @import "./component/_ui.scss";
 
-@media (min-width: 1200px) { 
+@media (max-width: 1399px) { 
     section{
-        // margin-left: 20px;
-        // margin-right: 20px;
+        padding: 0 calc(50% - 450px);
     }
-    .header{
-        padding: 0 calc(50% - 580px);
 
-    }
 }
