@@ -19,6 +19,43 @@
     .nav-list, .header-action-list{
         display: none;
     }
+    .tablo, .review{
+        background: linear-gradient(#FD749B -12.41%, #281AC8 88.56%);
+        padding-top: 30px;
+        padding-bottom: 30px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .review{
+        margin-bottom: 0;
+
+    }
+    .review .text-ribon, .download .text-ribon,{
+        h2{
+            &::after{
+                background-color: #fff;
+    
+            }
+        }
+
+    }
+    .review .type1-txt{
+        @extend %unicorn-text__white;
+
+    }
+
+    .download{
+        margin-top: 0;
+        color: #fff;
+        background: linear-gradient(#281AC8 12.41%, #FD749B 88.56%);
+    }
+   
+
+
+    .experience{
+        margin: 30px auto;
+    }
+
     .tablo-content{
         min-height: calc(2.5*367px);
     }
@@ -65,5 +102,11 @@
                 background-color: #FD749B;
             }
         }
+    }
+    .input{
+        height: 54px;
+        width: 320px;
+        padding: 0 16px;
+        margin-right: 9px;
     }
 }

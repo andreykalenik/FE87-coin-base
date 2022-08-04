@@ -1,0 +1,41 @@
+@import "./component/_text.scss";
+@import "./component/_ui.scss";
+
+@media (max-width: 540px) {
+    .input, .subscribe-content .button{
+        width: 80%;
+        margin: 10px 10%;
+    }
+    .tablo-content{
+        min-height: 640px;
+    }
+    .table {
+        &:last-child{
+            display: none;
+        }
+    }
+    .table-user{
+        margin-right: 0;
+    }
+    .post{
+        width: 80%;
+        height: 100%;
+        h2{
+            line-height: 30px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+        .button{
+            margin-top: 10px;
+            padding: 17px 5px;
+            width: 110px;
+        }
+    }
+    .rates {
+        padding-top: 20px;
+        flex-direction: column;
+    }
+    .rates__item{
+        flex-basis: 100%;
+    }
+}    
