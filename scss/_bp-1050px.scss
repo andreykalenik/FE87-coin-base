@@ -1,0 +1,23 @@
+@import "./component/_text.scss";
+@import "./component/_ui.scss";
+
+@media (max-width: 1050px) {
+    .icon{
+        span{
+          display: none;
+        }
+        img{
+          margin-top: 12px;
+          margin-left: 12px;
+        }
+    }
+  .tablo{
+    background-position: center top -100px, center bottom -20px, center center;
+  }
+  .review{
+    background-position: center top -100px, center bottom -75px, center center;
+  }
+  .blog{
+    margin-top: 10px;
+  }
+}

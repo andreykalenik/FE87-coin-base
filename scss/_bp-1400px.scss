@@ -8,8 +8,12 @@
     margin-right: 20px;
     min-height: 134px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
+    gap: 10px;
+}
+.logo{
+    margin-right: auto;
 }
 .nav-list{
     flex-basis: 426px;
@@ -55,7 +59,7 @@
 .get-started{
     display: flex;
     justify-content: center;
-    gap: 11vw;
+    // gap: 11vw;
     min-height: 866px;
     background: url(../img/wave.svg),
                 linear-gradient(174.48deg, #FD749B -12.41%, #281AC8 88.56%);
@@ -83,11 +87,15 @@
 .get-started__item{
     flex: 0 0 50%;
 }
+.get-started__text{
+    padding-left: 60px;
+}
 .wellcome,.experience{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 40px;
+    // gap: 40px;
+    margin: 0 20px;
     button {
         margin-top: 35px;
     }
@@ -96,7 +104,9 @@
     margin-bottom: -50px;
 }
 .wellcome__item{
-    flex: 0 0 50%;
+    flex: 0 0 48%;
+    padding: 20px;
+
 }
 .experience{
     margin-top: -50px;
@@ -105,6 +115,9 @@
         max-width: 350px;
     }
 }
+.experience__item{
+    flex-basis: 50%;
+}
 .tablo{
     background-image: url(../img/tablo-top-wave-bg.svg),
                     url(../img/tablo-bottom-wave-bg.svg),
@@ -112,19 +125,21 @@
     background-repeat: no-repeat;
     background-position: center top -150px, center bottom -50px, center center;
     background-size: contain, contain, contain;
-    padding-top: 23vw;
-    padding-bottom: 20vw; 
+    padding: 23vw 20px 20vw 20px;
+    display: flex;
 }
 .tablo-content{
     max-width: 1158px;
     height: 367px;
     background: #FFFFFF;
     box-shadow: 0px 50px 100px rgba(0, 0, 0, 0.25);
-    border-radius: 30px;  
+    border-radius: 30px; 
+    margin: 0 auto; 
+    flex-basis: 100%;
 
 }
 .trade {
-    padding-top: 121px;
+    padding: 121px 20px 0;
     background-image: url(../img/trade-BG.svg);
     background-repeat: no-repeat;
     background-position: center top;
@@ -266,12 +281,12 @@
 }
 .post-next{
     position: absolute;
-    right: calc(50% - 530px);
+    left: 20px;
     bottom: 36px;
 }
 .post-prev{
     position: absolute;
-    left: calc(50% - 530px);
+    right: 20px;
     bottom: 36px;
 }
 
@@ -324,7 +339,9 @@
 .table-user-rates__content {
 }
 .rates {
-
+ display: flex;
+ flex-direction: column;
+ justify-content: space-between;
 }
 .table-user-reserves {
 }
@@ -503,13 +520,12 @@
     url(../img/review-bottom-wave-bg.svg),
     linear-gradient(174.48deg, #FD749B -12.41%, #281AC8 88.56%);
     background-repeat: no-repeat;
-    background-position: center top -100px, center bottom -100px, center center;
+    background-position: center top -100px, center bottom -90px, center center;
     background-size: contain, contain, contain;
-    padding-top: 4vw;
-    padding-bottom: 15vw; 
-    img{
-        height: 100%;
-        width: 100%;
+    padding: 4vw 20px 15vw 20px;
+    p{
+        max-width: 60%;
+        margin: 0 auto;
     }
 }
 .download{
