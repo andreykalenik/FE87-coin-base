@@ -2,6 +2,7 @@
 @import "./component/_ui.scss";
 
 @media (max-width: 1050px) {
+
     .icon{
         span{
           display: none;
@@ -15,9 +16,15 @@
     background-position: center top -100px, center bottom -20px, center center;
   }
   .review{
-    background-position: center top -100px, center bottom -75px, center center;
+    background-position: center top -100px, center bottom -65px, center center;
   }
   .blog{
     margin-top: 10px;
+  }
+  .download{
+    background-position: center top -50px, center center;
+  }
+  .trade{
+    padding-top: 30px;
   }
 }
