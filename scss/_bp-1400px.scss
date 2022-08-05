@@ -63,13 +63,11 @@
 .get-started{
     display: flex;
     justify-content: center;
-    // gap: 11vw;
     min-height: 866px;
     background: url(../img/wave.svg),
                 linear-gradient(174.48deg, #FD749B -12.41%, #281AC8 88.56%);
     background-repeat:no-repeat, no-repeat ;
     background-position: center bottom -3vw, center center;
-
     background-size: contain, cover;
     color: #fff;
     text-align: left;
@@ -77,8 +75,7 @@
         margin-top: 142px;
         margin-bottom: 21px;
         text-align: left;
-
-    }
+    }|
     p{
         margin-bottom: 30px;
         text-align: left;
@@ -90,9 +87,14 @@
 }
 .get-started__item{
     flex: 0 0 50%;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+
 }
 .get-started__text{
     padding-left: 60px;
+
 }
 .wellcome,.experience{
     display: flex;
