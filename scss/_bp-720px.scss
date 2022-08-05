@@ -28,6 +28,7 @@
     }
     .review{
         margin-bottom: 0;
+        color: #fff;
 
     }
     .review .text-ribon, .download .text-ribon,{
@@ -39,15 +40,17 @@
         }
 
     }
-    .review .type1-txt{
-        @extend %unicorn-text__white;
-
+    .review .type1-txt h2, .download  .type1-txt h2{
+        -webkit-text-fill-color: white
     }
 
     .download{
         margin-top: 0;
         color: #fff;
         background: linear-gradient(#281AC8 12.41%, #FD749B 88.56%);
+        p{
+            padding: 0 20px;
+        }
     }
    
 

@@ -1195,17 +1195,21 @@ p {
   }
   .review {
     margin-bottom: 0;
+    color: #fff;
   }
   .review .text-ribon h2::after, .download .text-ribon h2::after {
     background-color: #fff;
   }
-  .review .type1-txt h2 {
-    color: #fff;
+  .review .type1-txt h2, .download .type1-txt h2 {
+    -webkit-text-fill-color: white;
   }
   .download {
     margin-top: 0;
     color: #fff;
     background: linear-gradient(#281AC8 12.41%, #FD749B 88.56%);
+  }
+  .download p {
+    padding: 0 20px;
   }
   .experience {
     margin: 30px auto;
@@ -1429,6 +1433,10 @@ p {
   }
   .rates__item {
     flex-basis: 100%;
+  }
+  .download-content h2, .review-content h2, .subscribe-content h2 {
+    padding-left: 20px;
+    padding-right: 20px;
   }
 }
 body {
