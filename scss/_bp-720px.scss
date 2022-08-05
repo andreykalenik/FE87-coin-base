@@ -64,6 +64,7 @@
     }
     .tablo-table {
         align-items: center;
+        padding: 20px;
     }
     .table {
         flex: 0 0 100%;
@@ -81,7 +82,7 @@
     .contet-img, .post-prev,.post-next{
         display: none;
     }
-    .get-started__item:first-child, .wellcome__item:last-child, .experience__item:first-child{
+    .get-started__item:first-child, .wellcome__item:last-child, .experience__item:first-child, .blog-title{
         flex-basis: 100%;
         padding: 0 30px ;
     }

@@ -1016,6 +1016,7 @@ p {
   }
   .trade-card-list {
     justify-content: space-evenly;
+    gap: 40px;
   }
   .trade-card {
     padding: 16px;
@@ -1219,6 +1220,7 @@ p {
   }
   .tablo-table {
     align-items: center;
+    padding: 20px;
   }
   .table {
     flex: 0 0 100%;
@@ -1235,7 +1237,7 @@ p {
   .contet-img, .post-prev, .post-next {
     display: none;
   }
-  .get-started__item:first-child, .wellcome__item:last-child, .experience__item:first-child {
+  .get-started__item:first-child, .wellcome__item:last-child, .experience__item:first-child, .blog-title {
     flex-basis: 100%;
     padding: 0 30px;
   }
@@ -1400,6 +1402,9 @@ p {
 }
 
 @media (max-width: 540px) {
+  .get-started {
+    padding-bottom: 50px;
+  }
   .input, .subscribe-content .button {
     width: 80%;
     margin: 10px 10%;
@@ -1437,6 +1442,25 @@ p {
   .download-content h2, .review-content h2, .subscribe-content h2 {
     padding-left: 20px;
     padding-right: 20px;
+  }
+  .blog_title {
+    margin: 0 30px;
+  }
+  .post {
+    padding: 20px;
+  }
+  .trade-title {
+    padding: 0 20px;
+    margin-bottom: 40px;
+  }
+  .trade-card-list {
+    justify-content: center;
+    padding: 0 20px;
+  }
+  .trade-card {
+    padding: 16px;
+    width: 35vw;
+    height: 35vw;
   }
 }
 body {

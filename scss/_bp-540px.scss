@@ -2,6 +2,9 @@
 @import "./component/_ui.scss";
 
 @media (max-width: 540px) {
+    .get-started{
+        padding-bottom: 50px;
+    }
     .input, .subscribe-content .button{
         width: 80%;
         margin: 10px 10%;
@@ -44,4 +47,23 @@
             padding-right: 20px; 
         }
     }
+    .blog_title {
+        margin: 0 30px;
+    }
+    .post{
+        padding: 20px;
+    }
+    .trade-title{
+        padding: 0 20px;
+        margin-bottom: 40px;
+    }    
+    .trade-card-list{
+        justify-content: center;
+        padding: 0 20px;
+    }
+        .trade-card{
+            padding: 16px;
+            width: 35vw;
+            height: 35vw;
+        }
 }    
